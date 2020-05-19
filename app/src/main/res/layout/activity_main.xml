@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context="com.example.musicapp.MainActivity">
+
+    <TextView
+        android:id="@+id/classical"
+        style="@style/CategoryStyle"
+        android:background="@color/classical_music"
+        android:text="@string/classic_music" />
+
+    <TextView
+        android:id="@+id/folk"
+        style="@style/CategoryStyle"
+        android:background="@color/folk_music"
+        android:text="@string/folk_music" />
+
+    <TextView
+        android:id="@+id/carnatic"
+        style="@style/CategoryStyle"
+        android:background="@color/carnatic"
+        android:text="@string/carnatic_music" />
+
+</LinearLayout>
